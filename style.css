@@ -36,4 +36,16 @@
 }
 .to-do{
   text-align: center;
+  justify-content: center;
+}
+.portfolio h1{
+  text-align: center;
+  justify-content: center;
+}
+#input{
+  background-image: url("/home/algorithm/Desktop/delani-ip/IP3-master/assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
 }
