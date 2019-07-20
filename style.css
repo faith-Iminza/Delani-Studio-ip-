@@ -17,6 +17,10 @@
 .intro h6{
   color: white;
 }
+.intro p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .About{
   text-align: center;
   margin-top: 0;
