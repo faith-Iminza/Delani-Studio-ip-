@@ -53,5 +53,8 @@
   justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
-
+}
+.social-icons{
+  justify-content: center;
+  text-align: center;
 }
