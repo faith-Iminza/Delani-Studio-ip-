@@ -42,6 +42,21 @@
   text-align: center;
   justify-content: center;
 }
+#design p{
+   font-family:"https://fonts.googleapis.com/css?family=Lato&display=swap";
+  font-size: 18px;
+  text-align: center;
+}
+#dev p{
+  font-family:"https://fonts.googleapis.com/css?family=Lato&display=swap";
+  font-size: 18px;
+  text-align: center;
+}
+#product p{
+  font-family:"https://fonts.googleapis.com/css?family=Lato&display=swap";
+  font-size: 18px;
+  text-align: center;
+}
 .portfolio h1{
   text-align: center;
   justify-content: center;
