@@ -1,5 +1,11 @@
 $(document).ready(function(){
-  $("#design").click(function(){
-    $("p").toggle();
-  });
+  $("#design img").click(function(){
+    $("#design p"). toggle();
+    });
+  $("#dev img").click(function(){
+    $("#dev p"). toggle();
+    });
+  $("#product img").click(function(){
+    $("#product p"). toggle();
+    });
 });
