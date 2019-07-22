@@ -82,8 +82,9 @@
   justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
-   background-color:rgba(255, 255, 255, 0);
 }
+
+
 .social-icons{
   justify-content: center;
   text-align: center;
@@ -188,6 +189,7 @@
 .contact h1{
   color: white:
 }
+
 
     /* float: right;
     position: relative

@@ -92,3 +92,8 @@ $(document).ready(function() {
      $("#porttext7").hide();
    });
  });
+
+ $("form").submit(function(){
+  var name=$("input#name").val();
+  alert("Hello "+name+" Thank you for contacting us");
+})

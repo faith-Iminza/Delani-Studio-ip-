@@ -125,14 +125,14 @@
     </div>
       <div class="row">
            <div class="col-md-2"></div>
-           <div class="nameml">
+           <form>
            <div class="col-md-4">
               <input class="col-md-4 form-control name" type="text" id="name" placeholder="Name...">
-           </div>
+          </div>
            <div class="col-md-4">
               <input class="col-md-4 form-control email" type="email" id="name" placeholder="Email...">
           </div>
-        </div>
+
           <div class="col-md-2"></div>
      </div>
         <br>
@@ -145,6 +145,7 @@
             </div>
             <button class="btn btn-success mx-auto d-block submit" id="submit" type="submit">Submit</button>
             </div>
+          </form>
             <br>
             <br>
       <div class="social-icons">
@@ -156,7 +157,10 @@
             <div class="col-md-1">
                <img src="IP3-master/assets/social_icons/dribble.png">
             </div>
-              <div class="col-md-1">
+              <div class="col-$("form").submit(function(){
+   var name=$("input#name").val();
+   alert("Hello "+name+" Thank you for contacting us");
+ })md-1">
                   <img src="IP3-master/assets/social_icons/facebook.png">
               </div>
                 <div class="col-md-1">
