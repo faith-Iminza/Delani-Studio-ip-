@@ -1,20 +1,40 @@
-$(document).ready(function(){
- $("#design").on("click",function(){
-   $("#design p"). toggle();
- },function(){
-     $("#design img"). toggle();
-   });
- $("#dev").on("click",function(){
-   $("#dev p"). toggle();
- },function(){
-     $("#dev img"). toggle();
-   });
- $("#product").on("click",function(){
-   $("#product p"). toggle();
- },function(){
-     $("#product img"). toggle();
- });
-   });
+$(document).ready(function() {
+  $("#design").click(function() {
+    $("#design").toggle();
+    $("#design1").toggle();
+  });
+});
+$(document).ready(function() {
+  $("#design1").click(function() {
+    $("#design").toggle();
+    $("#design1").toggle();
+  });
+});
+$(document).ready(function() {
+  $("#dev").click(function() {
+    $("#dev").toggle();
+    $("#dev1").toggle();
+  });
+});
+$(document).ready(function() {
+  $("#dev1").click(function() {
+    $("#dev").toggle();
+    $("#dev1").toggle();
+  });
+});
+$(document).ready(function() {
+  $("#product").click(function() {
+    $("#product").toggle();
+    $("#product1").toggle();
+  });
+});
+$(document).ready(function() {
+  $("#product1").click(function() {
+    $("#product").toggle();
+    $("#product1").toggle();
+  });
+});
+
  //hover effect:
  $(document).ready(function(){
    $("#portimg").mouseover(function(){

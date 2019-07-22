@@ -27,7 +27,7 @@
   margin-bottom: 0;
 }
 .Services{
-  background-image: url("/home/algorithm/Desktop/delani-ip/IP3-master/assets/backgrounds/s_image.jpg");
+  background-image: url("IP3-master/assets/backgrounds/s_image.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -42,20 +42,29 @@
   text-align: center;
   justify-content: center;
 }
-#design p{
+#design1{
    font-family:"https://fonts.googleapis.com/css?family=Lato&display=swap";
   font-size: 18px;
   text-align: center;
 }
-#dev p{
+#design1{
+  display: none;
+}
+#dev1{
   font-family:"https://fonts.googleapis.com/css?family=Lato&display=swap";
   font-size: 18px;
   text-align: center;
 }
-#product p{
+#dev1{
+  display: none;
+}
+#product1{
   font-family:"https://fonts.googleapis.com/css?family=Lato&display=swap";
   font-size: 18px;
   text-align: center;
+}
+#product1{
+  display: none;
 }
 .portfolio h1{
   text-align: center;
@@ -66,7 +75,7 @@
   justify-content: center;
 }
 #form{
-  background-image: url("/home/algorithm/Desktop/delani-ip/IP3-master/assets/backgrounds/c_image.jpg");
+  background-image: url("IP3-master/assets/backgrounds/c_image.jpg");
   background-size: cover;
   height: 70vh;
   justify-content: center;
