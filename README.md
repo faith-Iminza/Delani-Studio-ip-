@@ -8,6 +8,8 @@ The author is Faith Iminza.
 To be able to access the page one can simply open a new tab and put the link below or you can click on the link below that will enable one to access the page immediately.
 ## Technologies used:
 I used the HTML,CSS javascript and j-query,bootstrap.
+## Live link to the page:
+https://faith-iminza.github.io/Delani-Studio-ip-/
 ## Contact information:
 One can reach me via email: faithjacks63@gmail.com
 License and Copyright information.
